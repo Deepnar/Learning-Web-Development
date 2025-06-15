@@ -16,7 +16,7 @@ I’m currently exploring and practicing **HTML**, the foundational language of 
 
 ---
 
-## 📈 What's Next
+##  What's Next
 
 As I move forward in my learning journey, I plan to:
 - Add **CSS** to style the HTML pages
@@ -25,7 +25,7 @@ As I move forward in my learning journey, I plan to:
 
 ---
 
-## 💡 Purpose
+##  Purpose
 
 This repository serves as:
 - A personal learning log
@@ -34,8 +34,16 @@ This repository serves as:
 
 ---
 
-## 📝 Status
+##  Status
 
 > **Currently learning HTML** — this project will grow as I continue learning new topics and building more features.
+
+
+##  Live Preview
+
+[🌐 View Website](https://deepnar.github.io/Learning-Web-Development/)
+
+
+
 
 

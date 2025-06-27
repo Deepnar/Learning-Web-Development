@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Sign Up</title>
+</head>
+
+<body>
+    <header>
+        <h1>Learning HTML-Deepnar</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html" target="_blank">About</a></li>
+                <li>
+                    <div><a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank">Where
+                            to
+                            learn
+                            from</a> </div>
+                </li>
+                <li><a href="signup.html">Sign Up</a></li>
+                <li>
+                    <form action="https://www.google.com/search" target="_blank">
+                        <input type="text" name="q" placeholder="Google Search">
+                        <button>&#x1F50D;</button>
+
+                    </form>
+                </li>
+            </ul>
+        </nav>
+        <hr>
+    </header>
+    <main>
+        <h2>Sign Up</H2>
+
+        <form action="singupbuffer.html">
+            <p>
+                <label for="username"><strong>Username</strong> </label><br>
+                <input type="text" placeholder="username" id="username" name="username">
+            </p>
+
+            <p>
+                <label for="password"><strong>Password</strong></label><br>
+                <input type="password" placeholder="8 char limit" id="password" name="password">
+            </p>
+
+            <p>
+                <label for="DOB"><strong>Date Of Birth</strong></label><br>
+                <input type="date" placeholder="DOB" id="DOB" name="DOB">
+            </p>
+
+            <p>
+                <strong>Gender</strong>
+                <br>
+                <label for="gender"><strong>Select Your Gender</strong></label>
+                <select name="Gender" id="Gender">
+                    <option value="M">Male</option>
+                    <option value="F">Female</option>
+                    <option value="O">Other</option>
+                </select>
+            </p>
+            <p>
+                <b>Allow Notifications?</b><br>
+                <input type="radio" name="notif" id="A" value="Allow">
+                <label for="A">Allow</label>
+                <input type="radio" name="notif" id="NA" value="Not Allow">
+                <label for="NA">Not Allow</label>
+            </p>
+
+            <button>Sign-up</button>
+
+        </form>
+    </main>
+
+
+</body>
+
+</html>

@@ -1,0 +1,70 @@
+h1 {
+    color: rgb(84, 32, 133);
+    text-align: center;
+    text-decoration: underline;
+    font-family: 'calibri';
+}
+
+h2 {
+    color: rgb(180, 15, 131);
+    background-color: rgb(143, 195, 255);
+    text-decoration: underline dashed;
+}
+
+h3 {
+    color: rgb(55, 135, 196);
+}
+
+p {
+    color: rgb(99, 212, 167);
+}
+
+button {
+    background-color: aquamarine;
+}
+
+main {
+    background-color: rgb(41, 45, 81);
+}
+
+header {
+    background-color: rgb(30, 181, 204);
+}
+
+thead {
+    color: rgb(118, 26, 26);
+    background-color: aquamarine;
+}
+
+tbody {
+    background-color: azure;
+}
+
+footer {
+    background-color: rgb(30, 181, 204);
+}
+
+ul {
+    color: aliceblue;
+}
+
+div {
+    color: azure;
+}
+
+textarea {
+    background-color: rgb(0, 0, 0);
+    color: rgb(51, 255, 0);
+}
+
+input {
+    color: rgb(25, 41, 45);
+}
+
+a {
+    color: rgb(255, 0, 102);
+}
+
+form {
+    text-align: center;
+}

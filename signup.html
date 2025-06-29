@@ -2,6 +2,7 @@
 
 <head>
     <title>Sign Up</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -33,43 +34,64 @@
         <h2>Sign Up</H2>
 
         <form action="singupbuffer.html">
-            <p>
+            <div>
+                <label for="email"><strong>Email-ID</strong></label><br>
+                <input type="email" placeholder="email" id="email" name="email" required>
+            </div>
+            <br>
+            <div>
                 <label for="username"><strong>Username</strong> </label><br>
-                <input type="text" placeholder="username" id="username" name="username">
-            </p>
+                <input type="text" placeholder="username" id="username" name="username" required>
+            </div>
+            <br>
 
-            <p>
+            <div>
                 <label for="password"><strong>Password</strong></label><br>
-                <input type="password" placeholder="8 char limit" id="password" name="password">
-            </p>
+                <input type="password" placeholder="password" id="password" name="password" required minlength="5"
+                    maxlength="8">
+            </div>
+            <br>
 
-            <p>
+            <div>
                 <label for="DOB"><strong>Date Of Birth</strong></label><br>
-                <input type="date" placeholder="DOB" id="DOB" name="DOB">
-            </p>
+                <input type="date" placeholder="DOB" id="DOB" name="DOB" required>
+            </div>
+            <br>
 
-            <p>
-                <strong>Gender</strong>
-                <br>
-                <label for="gender"><strong>Select Your Gender</strong></label>
-                <select name="Gender" id="Gender">
-                    <option value="M">Male</option>
-                    <option value="F">Female</option>
-                    <option value="O">Other</option>
-                </select>
-            </p>
-            <p>
-                <b>Allow Notifications?</b><br>
+            <div>
+
+                <label for="gender"><strong>Gender</strong></label>
+                <div>
+                    <select name="Gender" id="Gender" required>
+                        <option value="P">--Please enter your gender</option>
+                        <option value="M">Male</option>
+                        <option value="F">Female</option>
+                        <option value="O">Other</option>
+                    </select>
+                </div>
+            </div>
+            <br>
+            <div>
+                <strong>Allow Notifications?</strong><br>
                 <input type="radio" name="notif" id="A" value="Allow">
                 <label for="A">Allow</label>
                 <input type="radio" name="notif" id="NA" value="Not Allow">
                 <label for="NA">Not Allow</label>
-            </p>
+            </div>
+            <br>
 
             <button>Sign-up</button>
 
         </form>
     </main>
+    <footer>
+        <h2>Contact</h2>
+        <ul>
+            <li><a href="mailto:demo@gmail.com" target="_blank">Email</a>
+            </li>
+            <li><a href="https://github.com/Deepnar" target="_blank">Github</a></li>
+        </ul>
+    </footer>
 
 
 </body>

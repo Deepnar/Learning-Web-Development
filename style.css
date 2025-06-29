@@ -24,7 +24,7 @@ button {
 }
 
 main {
-    background-color: rgb(41, 45, 81);
+    background-color: rgba(41, 45, 81, 0.575);
 }
 
 header {
@@ -67,4 +67,13 @@ a {
 
 form {
     text-align: center;
+}
+
+nav {
+    text-align: center;
+
+}
+
+html {
+    background-color: rgb(9, 142, 100);
 }

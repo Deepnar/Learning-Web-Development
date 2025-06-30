@@ -6,9 +6,12 @@ h1 {
 }
 
 h2 {
-    color: rgb(180, 15, 131);
-    background-color: rgb(143, 195, 255);
+    color: rgb(3, 234, 255);
     text-decoration: underline dashed;
+}
+
+footer>h2 {
+    color: black;
 }
 
 h3 {
@@ -65,7 +68,7 @@ a {
     color: rgb(255, 0, 102);
 }
 
-form {
+.sign {
     text-align: center;
 }
 
@@ -76,4 +79,32 @@ nav {
 
 html {
     background-color: rgb(9, 142, 100);
+}
+
+#signtitle {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+td:hover,
+input:hover,
+button:hover {
+    background-color: rgb(35, 207, 255);
+}
+
+button:active {
+    background-color: red;
+    color: white;
+}
+
+html::selection {
+    background-color: rgba(61, 132, 30, 0.623);
 }

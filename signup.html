@@ -7,12 +7,14 @@
 
 <body>
     <header>
-        <h1>Learning HTML-Deepnar</h1>
+        <a href="index.html">
+            <h1>Learning Webdev-Deepnar</h1>
+        </a>
         <nav>
-            <a href="index.html">Home</a>
-            <a href="about.html" target="_blank">About</a>
+            <a href="index.html">Home |</a>
+            <a href="about.html" target="_blank">About |</a>
 
-            <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank">Where to learn from</a>
+            <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank">Where to learn from |</a>
 
             <a href="signup.html" target="_blank">Sign Up</a>
 
@@ -24,9 +26,9 @@
         <hr>
     </header>
     <main>
-        <h2>Sign Up</H2>
+        <h2 id="signtitle">Sign Up</H2>
 
-        <form action="singupbuffer.html">
+        <form action="singupbuffer.html" class="sign">
             <div>
                 <label for="email"><strong>Email-ID</strong></label><br>
                 <input type="email" placeholder="email" id="email" name="email" required>

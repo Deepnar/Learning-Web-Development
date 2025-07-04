@@ -2,7 +2,9 @@
 <html>
 
 <head>
-    <title> Learning HTML-Deepnar</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home-Learning Web Development</title>
     <link rel="stylesheet" href="style.css">
 
 </head>
@@ -10,30 +12,34 @@
 <body>
     <header>
         <a href="index.html">
-            <h1>Learning Webdev-Deepnar</h1>
+            <h1>Learning Web Development</h1>
         </a>
         <nav>
-            <a href="index.html">Home |</a>
-            <a href="about.html" target="_blank">About |</a>
+            <a href="index.html" class="nbar">Home</a>
+            <a href="about.html" target="_blank" class="nbar">About</a>
 
-            <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank">Where to learn from |</a>
+            <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank" class="nbar">Where to learn
+                from</a>
 
-            <a href="signup.html" target="_blank">Sign Up</a>
+            <a href="login.html" target="_blank" class="nbar">Login</a>
 
-            <form action="https://www.google.com/search" target="_blank">
+            <a href="signup.html" target="_blank" class="nbar">Sign Up</a>
+
+            <form action="https://www.google.com/search" target="_blank" class="nbar">
                 <input type="text" name="q" placeholder="Google Search">
                 <button>&#x1F50D;</button>
             </form>
         </nav>
     </header>
+    <br>
 
     <main>
         <!-- This is the way to write a comment -->
 
-        <hr>
+
 
         <section>
-            <h2> &rAarr; HTML:</h2>
+            <h2> HTML:</h2>
             <!-- used sup here to see what it does -->
             <p>HTML (HyperText Markup Language) is the most basic building block of the Web. It defines the meaning and
                 structure of web content. Other technologies besides <b>HTML</b> are generally used to describe a web
@@ -47,9 +53,9 @@
         </section>
 
         <section>
-            <h2>&rAarr; Features: </h2>
-
-            <img src="paragraph.png" width="200" alt="Example of what a para is">
+            <h2> Features: </h2>
+            <br>
+            <img src="paragraph.png" width="200" alt="Example of what a para is" id="ig">
 
             <p> We can add an image like added above, with a given width of 200 px, and with an alt text. Ahead i have
                 added an example of subscritpt and superscript and how that can be usefull<sub>[2]</sub><br> The above
@@ -62,8 +68,8 @@
 
 
         <section>
-            <h2>&rAarr; Coding Languages in Webdev:</h2>
-
+            <h2> Coding Languages in Webdev:</h2>
+            <br>
             <img src="https://miro.medium.com/v2/resize:fit:1400/0*7VyEZgzwUhQMeBqb" width="200">
 
             <p>We can code in web dev with many different options</p>
@@ -98,6 +104,8 @@
 
         </section>
         <section>
+
+            <h2>Chat Bot's Comparision:</h2>
 
 
             <table>
@@ -146,6 +154,7 @@
         <section>
             <label for="notes">
                 <h2>Notes:</h2>
+                <br>
             </label>
 
             <textarea name="Notes" id="notes" placeholder="write your notes here" rows="5" cols="30"></textarea>
@@ -154,12 +163,14 @@
 
 
     </main>
+    <br>
     <footer>
-        <h2>Contact</h2>
+        <h2 id="foot">Contact</h2>
         <ul>
             <li><a href="mailto:demo@gmail.com" target="_blank">Email</a>
             </li>
             <li><a href="https://github.com/Deepnar" target="_blank">Github</a></li>
+            <li><a href="https://www.linkedin.com/in/deepeshsonar/" target="_blank">LinkedIn</a></li>`
         </ul>
     </footer>
 

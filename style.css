@@ -1,21 +1,24 @@
 h1 {
     color: rgb(84, 32, 133);
     text-align: center;
-    text-decoration: underline;
-    font-family: 'calibri';
-
-
+    text-decoration: underline 2px;
+    font-family: "Libertinus Mono", monospace;
+    font-weight: 1000;
+    font-style: normal;
 }
 
 
 
 h2 {
     color: rgb(3, 234, 255);
-    text-decoration: underline dashed;
+    text-decoration: underline dashed 1.5px;
     margin-left: 20px;
     display: inline-block;
     margin-top: 10px;
     background-color: rgb(3, 35, 69);
+    font-family: "Limelight", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .nbar {
@@ -42,8 +45,8 @@ img {
     border: 2px solid white;
     border-radius: 10%;
     margin: 25px;
-
-
+    transition: width 0.3s, height 0.3s;
+    transition-timing-function: ease-out;
 }
 
 #ig {
@@ -52,17 +55,44 @@ img {
     border: 3px solid rgb(0, 0, 0);
     border-radius: 10%;
     margin: 25px;
+    transition: width 0.3s, height 0.3s;
+    transition-timing-function: ease-out;
+
+
 }
 
-button {
-    background-color: aquamarine;
-    padding: 5px 10px;
-    font-size: 15px;
+img:hover,
+#ig:hover {
+    width: 310px;
+    height: 210px;
+}
 
+
+
+button {
+    background-color: rgba(229, 255, 127, 0.125);
+    padding: 5px 10px;
+    margin-bottom: 5px;
+    font-size: 15px;
+    transition: transform 0.2s;
+    border-width: 2px solid;
+    border-color: rgb(0, 0, 0);
+    font-family: "Poiret One", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+}
+
+button:hover {
+
+    color: aliceblue;
+    border-style: groove;
+    border-color: aliceblue;
+    transform: translateY(-0.25em);
+    cursor: pointer;
 }
 
 header {
-    background-color: rgb(30, 181, 204);
+    background-color: rgba(30, 181, 204, 0.878);
     border-width: 5px;
     border-color: rgb(31, 79, 43);
     border-style: solid;
@@ -70,12 +100,22 @@ header {
     border-top-style: double;
     border-bottom-style: double;
     border-radius: 30px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0px;
+    font-family: "Poiret One", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+
 }
 
 main {
     background-color: rgba(41, 45, 81, 0.575);
     border: 3px double wheat;
     border-radius: 10px;
+    font-family: "Poiret One", sans-serif;
+    font-weight: 700;
+    font-style: normal;
 }
 
 footer {
@@ -88,6 +128,9 @@ footer {
     border-bottom-style: double;
 
     border-radius: 30px;
+    font-family: "Poiret One", sans-serif;
+    font-weight: 700;
+    font-style: italic;
 }
 
 
@@ -102,7 +145,10 @@ tbody {
 
 table {
     padding: 10px 25px;
+
 }
+
+
 
 
 ul {
@@ -119,8 +165,19 @@ textarea {
     margin: 20px;
 }
 
+#Gender {
+    height: 27px;
+}
+
 input {
     color: rgb(25, 41, 45);
+    height: 27px;
+    transition: background-color 0.5s;
+}
+
+td {
+    transition: background-color 0.5s;
+    padding: 1%;
 }
 
 a {
@@ -140,10 +197,8 @@ nav {
 
 html {
     background-color: rgb(9, 142, 100);
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
 }
-
 
 
 
@@ -151,9 +206,22 @@ a:hover {
     text-decoration: underline;
 }
 
+#Tmain:hover {
+    text-decoration: underline rgb(84, 32, 133);
+
+}
+
+section {
+    transition: margin-left 0.3s;
+
+}
+
+section:hover {
+    margin-left: 30px;
+}
+
 td:hover,
-input:hover,
-button:hover {
+input:hover {
     background-color: rgb(35, 207, 255);
 }
 
@@ -170,7 +238,4 @@ html::selection {
     display: block;
     margin-left: 0px;
     text-align: center !important;
-
 }
-
-`

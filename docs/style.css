@@ -40,6 +40,18 @@ span {
 
 }
 
+.nbar {
+    color: rgb(0, 4, 4);
+    border: 1px solid rgb(0, 30, 255);
+    border-radius: 25%;
+    padding: 0.75em;
+    background-color: rgba(7, 93, 67, 0.692);
+}
+
+.nbar:hover {
+    border-color: azure;
+}
+
 .ser {
     text-align: end;
     margin-right: 160px;

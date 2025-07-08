@@ -7,6 +7,8 @@ This repository documents my journey as I learn **web development**, starting wi
 
 [🌐 View Website](https://deepnar.github.io/Learning-Web-Development/)
 
+---
+
 ##  Current Focus: HTML
 
 I’m currently exploring and practicing **HTML**, the foundational language of the web.

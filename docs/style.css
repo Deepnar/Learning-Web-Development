@@ -1,5 +1,6 @@
 #Tmain {
-    color: rgb(84, 32, 133);
+    /* color: rgb(84, 32, 133); */
+    color: #e63946;
     text-align: center;
     font-size: 1.6em;
     text-decoration: underline 2px;
@@ -41,15 +42,19 @@ span {
 }
 
 .nbar {
-    color: rgb(0, 4, 4);
-    border: 1px solid rgb(0, 30, 255);
-    border-radius: 25%;
-    padding: 0.75em;
-    background-color: rgba(7, 93, 67, 0.692);
+    /* color: rgb(0, 4, 4); */
+    color: #bde0fe;
+    border: 1px solid #bde0fe;
+    /* border: 1px solid rgba(0, 0, 0, 0.215); */
+    border-radius: 10px;
+    padding: 10px;
+    background-color: rgba(7, 93, 67, 0);
 }
 
 .nbar:hover {
     border-color: azure;
+    background-color: #e1f1ff17;
+    box-shadow: 1.5px 1.5px 1.5px 1.5px #bde0fe;
 }
 
 .ser {
@@ -61,8 +66,13 @@ span {
 
 
 #foot {
-    color: black;
+    /* color: black; */
+    color: #e63946;
     background-color: rgba(0, 0, 0, 0);
+    text-decoration: underline;
+    font-weight: 600;
+    font-family: "Libertinus Mono", monospace;
+
 }
 
 h3 {
@@ -70,7 +80,8 @@ h3 {
 }
 
 p {
-    color: rgb(99, 212, 167);
+    /* color: rgb(99, 212, 167); */
+    color: #f1faee;
     padding-left: 20px;
 }
 
@@ -126,14 +137,17 @@ button:hover {
 }
 
 header {
-    background-color: rgba(30, 181, 204, 0.878);
-    border-width: 5px;
+    /* background-color: rgba(30, 181, 204, 0.878); */
+    background-color: #1d3557;
+
+    /* border-width: 5px;
     border-color: rgb(31, 79, 43);
     border-style: solid;
     box-sizing: border-box;
     border-top-style: double;
     border-bottom-style: double;
-    border-radius: 30px;
+    border-radius: 30px; */
+    padding: 17px;
     position: -webkit-sticky;
     position: sticky;
     top: 0px;
@@ -145,9 +159,10 @@ header {
 }
 
 main {
-    background-color: rgba(41, 45, 81, 0.575);
-    border: 3px double wheat;
-    border-radius: 10px;
+    /* background-color: rgba(41, 45, 81, 0.575); */
+    background-color: #457b9d;
+    /* border: 3px double wheat;
+    border-radius: 10px; */
     font-family: "Poiret One", sans-serif;
     font-weight: 700;
     font-style: normal;
@@ -156,15 +171,17 @@ main {
 }
 
 footer {
-    background-color: rgb(30, 181, 204);
-    border-width: 5px;
+    /* background-color: rgb(30, 181, 204); */
+    background-color: #1d3557;
+
+    /* border-width: 5px;
     border-color: rgb(31, 79, 43);
     border-style: solid;
     box-sizing: border-box;
     border-top-style: double;
     border-bottom-style: double;
 
-    border-radius: 30px;
+    border-radius: 30px; */
     font-family: "Poiret One", sans-serif;
     font-weight: 700;
     font-style: italic;
@@ -173,7 +190,9 @@ footer {
 
 thead {
     color: rgb(118, 26, 26);
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
+    /* background-color: #94d2bd; */
+    background-color: #adb5bd;
 }
 
 tbody {
@@ -215,7 +234,9 @@ td {
 }
 
 a {
-    color: rgb(255, 0, 102);
+    /* color: rgb(255, 0, 102); */
+    /* color: #90be6d; */
+    color: #ccff33;
     text-decoration: none;
     font-weight: bolder;
     transition: 0.2s;
@@ -225,13 +246,20 @@ a {
     text-align: center;
 }
 
+.cont {
+    list-style: none;
+}
 
 
 html {
-    background-color: rgb(9, 142, 100);
+    /* background-color: rgb(9, 142, 100); */
+    background-color: #a8dadc;
 
 }
 
+.ab {
+    padding-bottom: 10%;
+}
 
 
 a:hover {
@@ -242,7 +270,7 @@ a:hover {
 }
 
 #Tmain:hover {
-    text-decoration: underline rgb(84, 32, 133);
+    text-decoration: underline #e63946;
 
 }
 

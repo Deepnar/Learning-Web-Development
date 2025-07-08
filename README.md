@@ -3,6 +3,9 @@
 This repository documents my journey as I learn **web development**, starting with the basics of **HTML**. As I progress, I’ll add more technologies like **CSS**, **JavaScript**, and modern frameworks.
 
 ---
+##  Live Preview
+
+[🌐 View Website](https://deepnar.github.io/Learning-Web-Development/)
 
 ##  Current Focus: HTML
 
@@ -39,9 +42,7 @@ This repository serves as:
 > **Currently learning HTML** — this project will grow as I continue learning new topics and building more features.
 
 
-##  Live Preview
 
-[🌐 View Website](https://deepnar.github.io/Learning-Web-Development/)
 
 
 
